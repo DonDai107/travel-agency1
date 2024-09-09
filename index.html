@@ -8,8 +8,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- fonts -->
     <link rel="stylesheet" href="font/fonts.css">
@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        .custom-text {
+            font-size: 36px;
+            white-space: nowrap;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,7 +32,7 @@
     <nav class="navbar">
         <div class="container flex">
             <a href="index.html" class="site-brand">
-                VAIDIK<span> <br>Tours and Travels</span>
+                VAIDIK<span class="custom-text"> Tours and Travels</span>
             </a>
 
             <button type="button" id="navbar-show-btn" class="flex">
@@ -88,45 +94,46 @@
 
             <div class="featured-row">
                 <div class="featured-item my-2 shadow">
-                    <img src="images\featured-annapurna-himal.jpg" alt="featured place">
+                    <img src="images\annapurna.jpg" alt="featured place">
                     <div class="featured-item-content">
                         <span>
                             <i class="fas fa-map-marker-alt"></i>
                             Mount Annapurna, Nepal
                         </span>
                         <div>
-                            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed
-                                dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            <p class="text">Nestled in the heart of north-central Nepal, Mount Annapurna stands
+                                majestically at 8,091 meters (26,545 feet), earning its place as the 10th highest peak
+                                on Earth. </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="featured-item my-2 shadow">
-                    <img src="images/featured-north-bondi-australia.jpg" alt="featured place">
+                    <img src="images/featured-mustang-nepal.png" alt="featured place">
                     <div class="featured-item-content">
                         <span>
                             <i class="fas fa-map-marker-alt"></i>
-                            North Bondi, Australia
+                            Musatng, Nepal
                         </span>
                         <div>
-                            <p class="text">Nestled along Sydney’s stunning coastline, North Bondi is a hidden gem that
-                                exudes a serene, bohemian charm. This vibrant suburb, is a surfer’s paradise with waves
-                                that beckon adventurers. Beyond its shores, North Bondi whispers tales of history with
-                                the iconic Ben Buckler Gun Battery and its enchanting heritage sites.</p>
+                            <p class="text">Mustang, often referred to as the “Land of Lo,” is a remote and mystical
+                                region in north-central Nepal. This once forbidden kingdom provides an unparalleled
+                                glimpse into a world where time seems to stand
+                                still.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="featured-item my-2 shadow">
-                    <img src="images/featured-berlin-germany.jpg" alt="featured place">
+                    <img src="images/featured-global-village-dubai.jpg" alt="featured place">
                     <div class="featured-item-content">
                         <span>
                             <i class="fas fa-map-marker-alt"></i>
-                            Berlin, Germany
+                            Global Village, Dubai
                         </span>
                         <div>
-                            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed
-                                dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            <p class="text">Global Village Dubai is a vibrant cultural and entertainment destination,
+                                showcasing the traditions and cuisines of over 90 countries</p>
                         </div>
                     </div>
                 </div>
@@ -139,22 +146,25 @@
                             Khwaeng wat arun, thailand
                         </span>
                         <div>
-                            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed
-                                dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            <p class="text"> This stunning riverside landmark is renowned for its intricate design and
+                                colorful ceramic tiles, making it one of Thailand’s most beautiful and historic sites
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="featured-item my-2 shadow">
-                    <img src="images/featured-rome-italy.jpg" alt="featured place">
+                    <img src="images/Angkor Wat cambodia.jpg" alt="featured place">
                     <div class="featured-item-content">
                         <span>
                             <i class="fas fa-map-marker-alt"></i>
-                            Rome, Italy
+                            Angkor Wat, Cambodia
                         </span>
                         <div>
-                            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed
-                                dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            <p class="text">Angkor Wat, Cambodia, is the largest religious monument in the world
+                                originally built in the 12th century as a Hindu temple and later transformed into a
+                                Buddhist temple. This architectural marvel is renowned for its grandeur, and historical
+                                significance</p>
                         </div>
                     </div>
                 </div>
@@ -167,8 +177,9 @@
                             fuvahmulah, maldives
                         </span>
                         <div>
-                            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed
-                                dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                            <p class="text">Fuvahmulah, the only single-island atoll in the Maldives, is renowned for
+                                its unique biodiversity and stunning landscapes. Located near the equator, this island
+                                is a diver’s paradise, famously known as the "Tiger Shark Capital of the World"</p>
                         </div>
                     </div>
                 </div>
@@ -181,41 +192,114 @@
     <section id="services" class="py-4">
         <div class="container">
             <div class="title-wrap">
-                <span class="sm-title">know about services that we offer</span>
+                <span class="sm-title">Know about services that we offer</span>
                 <h2 class="lg-title">Our services</h2>
             </div>
+            <div>
+                <div class="services-row">
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-brands fa-cc-visa"></i>
+                        </span>
+                        <h3>Global Visa Assistance</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
 
-            <div class="services-row">
-                <div class="services-item">
-                    <span class="services-icon">
-                        <i class="fas fa-hotel"></i>
-                    </span>
-                    <h3>Luxurious Hotel</h3>
-                    <p class="text"></p>
-                    <a href="#" class="btn">Read more</a>
-                </div>
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-flag-usa"></i>
+                        </span>
+                        <h3>USA Visa Assistance</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
 
-                <div class="services-item">
-                    <span class="services-icon">
-                        <i class="fas fa-map-marked-alt"></i>
-                    </span>
-                    <h3>Trave Guide</h3>
-                    <p class="text"></p>
-                    <a href="#" class="btn">Read more</a>
-                </div>
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-earth-europe"></i>
+                        </span>
+                        <h3>Europe Tour Package</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
 
-                <div class="services-item">
-                    <span class="services-icon">
-                        <i class="fas fa-money-bill"></i>
-                    </span>
-                    <h3>Suitable Price</h3>
-                    <p class="text"></p>
-                    <a href="#" class="btn">Read more</a>
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-torii-gate"></i>
+                        </span>
+                        <h3>Japan Tour Package</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-people-group"></i>
+                        </span>
+                        <h3>Group Packages</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </span>
+                        <h3>Corporate Travel Packages</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-umbrella-beach"></i>
+                        </span>
+                        <h3>Holiday Destination</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fas fa-ticket"></i>
+                        </span>
+                        <h3>Air Tickets</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fas fa-hotel"></i>
+                        </span>
+                        <h3>Hotel</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="services-item">
+                        <span class="services-icon">
+                            <i class="fa-solid fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Prices</h3>
+                        <p class="text"></p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+
+
+
+
                 </div>
             </div>
-        </div>
     </section>
-    <!-- end of services section -->
+    <!-- end of services section  <i class="fa-solid fa-tickets-airline"></i>-->
 
     <!-- testimonials section -->
     <section id="testimonials" class="py-4">
@@ -227,9 +311,8 @@
 
             <div class="test-row">
                 <div class="test-item">
-                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda blanditiis,
-                        asperiores, velit iste eos officiis tempora magni quaerat quo consectetur expedita cum
-                        recusandae facere nam voluptate minus iusto eum. Delectus!</p>
+                    <p class="text">“Absolutely fantastic service! The entire trip was seamless and stress-free. Highly
+                        recommend this agency for anyone looking to travel with ease.”</p>
                     <div class="test-item-info">
                         <img src="images/test-1.jpg" alt="testimonial">
                         <div>
@@ -240,8 +323,8 @@
                 </div>
 
                 <div class="test-item">
-                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed ut dolores tenetur
-                        harum deserunt. Maxime tenetur consectetur recusandae nobis fugit iusto natus quibusdam nulla!
+                    <p class="text">“From booking to the actual trip, everything was perfect. The staff was incredibly
+                        helpful and made sure all our needs were met. Will definitely use their services again!”
                     </p>
                     <div class="test-item-info">
                         <img src="images/test-2.jpg" alt="testimonial">
@@ -253,9 +336,8 @@
                 </div>
 
                 <div class="test-item">
-                    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sapiente amet
-                        expedita quae autem deleniti quo magni numquam facilis soluta dicta, praesentium ipsum, quos
-                        optio sed quibusdam! Reprehenderit recusandae provident id nemo!</p>
+                    <p class="text">“This travel agency made our dream vacation a reality. Everything was organized
+                        perfectly, and we didn’t have to worry about a thing. Highly satisfied!”</p>
                     <div class="test-item-info">
                         <img src="images/test-3.jpg" alt="testimonial">
                         <div>
@@ -289,9 +371,7 @@
                 <a href="index.html" class="site-brand">
                     VAIDIK<span><br>Tours and Travels</span>
                 </a>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet voluptates maiores nam
-                    vitae iusto. Placeat rem sint voluptas natus exercitationem autem quod neque, odit laudantium
-                    reiciendis ipsa suscipit veritatis voluptate.</p>
+                <p class="text">Vaidik Tours and Travels: Your Gateway to Adventure</p>
             </div>
 
             <div class="footer-item">
